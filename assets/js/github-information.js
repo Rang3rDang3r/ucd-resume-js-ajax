@@ -1,8 +1,9 @@
+
 function userInformationHTML(user) {
     return `
         <h2>${user.name}
             <span class="small-name">
-                (@<a href="${user.html_url}" target="_blank"></a>
+                (@ <a href="${user.html_url}" target="_blank"></a> )
             </span>
         </h2>
         <div class-"gh-content">
